@@ -7,9 +7,9 @@
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--bg);color:var(--ink)}
 .hero{position:relative;width:100%;height:100vh;height:100svh;padding:0;margin:0;overflow:hidden;background:#000;display:flex;align-items:center;justify-content:center}
-.hero-art{position:relative;width:min(100vw,150svh);height:min(100svh,66.6667vw)}
+.hero-art{position:relative;width:100vw;height:100svh}
 .hero picture{display:block;width:100%;height:100%}
-.hero-photo{width:100%;height:100%;object-fit:contain;object-position:center;border-radius:0;box-shadow:none;display:block}
+.hero-photo{width:100%;height:100%;object-fit:fill;object-position:center;border-radius:0;box-shadow:none;display:block}
 .hero-button{position:absolute;left:8.8%;top:45.2%;width:34.2%;height:11.2%;display:block;z-index:2;border-radius:12px}
 main{max-width:1200px;margin:auto;padding:34px 18px 70px}
 .intro{text-align:center;margin-bottom:20px}
