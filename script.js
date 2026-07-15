@@ -334,61 +334,61 @@ const dishes = [
     "n": 56,
     "name": "Pulpo a la brasa",
     "cat": "pescados",
-    "img": "56-uniforme.jpg"
+    "img": "56-limpia.png"
   },
   {
     "n": 57,
     "name": "Semi-tataki",
     "cat": "pescados",
-    "img": "57-uniforme.jpg"
+    "img": "57-limpia.png"
   },
   {
     "n": 58,
     "name": "Gallo Pedro",
     "cat": "pescados",
-    "img": "58-uniforme.jpg"
+    "img": "58-limpia.png"
   },
   {
     "n": 59,
     "name": "Rodaballo",
     "cat": "pescados",
-    "img": "59-uniforme.jpg"
+    "img": "59-limpia.png"
   },
   {
     "n": 60,
     "name": "Pechuga de pollo a la plancha",
     "cat": "combinados",
-    "img": "60-uniforme.jpg"
+    "img": "60-limpia.png"
   },
   {
     "n": 61,
     "name": "Lomo de cerdo / castaño a la plancha",
     "cat": "combinados",
-    "img": "61-uniforme.jpg"
+    "img": "61-limpia.png"
   },
   {
     "n": 62,
     "name": "Filete de ternera gallega o Angus",
     "cat": "combinados",
-    "img": "62-uniforme.jpg"
+    "img": "62-limpia.png"
   },
   {
     "n": 63,
     "name": "Chuletón gallego o Angus",
     "cat": "carnes",
-    "img": "63-uniforme.jpg"
+    "img": "63-limpia.png"
   },
   {
     "n": 64,
     "name": "Entrecot de vaca rubia gallega, mestiza o añojo",
     "cat": "carnes",
-    "img": "64-uniforme.jpg"
+    "img": "64-limpia.png"
   },
   {
     "n": 65,
     "name": "Solomillo de vaca rubia gallega, mestiza, añojo o ternera rosada",
     "cat": "carnes",
-    "img": "65-uniforme.jpg"
+    "img": "65-limpia.png"
   },
   {
     "n": 66,
@@ -542,18 +542,18 @@ function render(filter='all') {
     const card = document.createElement('article');
     card.className = 'card';
     card.innerHTML = `
-      <div class="card-photo-wrap"><img src="imagenes-uniformes/${d.img}?v=20260715-28" alt="${d.name}" loading="lazy">${d.n > 55 ? '<span class="image-badge-eraser" aria-hidden="true"></span>' : ''}${prices[d.n] ? `<span class="image-price">${prices[d.n]}</span>` : ''}</div>
+      <div class="card-photo-wrap"><img src="imagenes-uniformes/${d.img}?v=20260715-29" alt="${d.name}" loading="lazy">${d.n > 65 ? '<span class="image-badge-eraser" aria-hidden="true"></span>' : ''}${prices[d.n] ? `<span class="image-price">${prices[d.n]}</span>` : ''}</div>
       <div class="card-body">
         <span class="number">Nº ${d.n}</span>
         <h3>${d.name}</h3>
         <div class="category-label">${categoryNames[d.cat]}</div>
       </div>`;
     card.addEventListener('click', () => {
-      modalImg.src = `imagenes-uniformes/${d.img}?v=20260715-28`;
+      modalImg.src = `imagenes-uniformes/${d.img}?v=20260715-29`;
       modalImg.alt = d.name;
       modalNumberFix.className = 'image-badge-eraser';
       modalNumberFix.innerHTML = '';
-      modalNumberFix.hidden = d.n <= 55;
+      modalNumberFix.hidden = d.n <= 65;
       modalPrice.hidden = !prices[d.n];
       modalPrice.textContent = prices[d.n] || '';
       modalTitle.textContent = `Nº ${d.n} · ${d.name}`;
