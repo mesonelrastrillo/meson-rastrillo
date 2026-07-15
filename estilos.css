@@ -22,7 +22,10 @@ main{max-width:1200px;margin:auto;padding:34px 18px 70px}
 .card{background:var(--card);border:1px solid rgba(183,138,51,.35);border-radius:18px;overflow:hidden;box-shadow:0 10px 28px rgba(70,49,28,.09);cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
 .card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(70,49,28,.14)}
 .card:has(.photo-placeholder){cursor:default}
+.card-photo-wrap{position:relative;width:100%;aspect-ratio:3/2;overflow:hidden}
 .card img{width:100%;aspect-ratio:3/2;object-fit:contain;display:block;background:#eee}
+.image-number-fix{position:absolute;left:4.2%;top:8.8%;width:8.6%;height:11.8%;display:flex;align-items:center;justify-content:center;background:#f7f4ed;color:#050505;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(1.3rem,4vw,3.2rem);line-height:1;z-index:3}
+.image-number-fix[hidden]{display:none}
 .photo-placeholder{width:100%;aspect-ratio:3/2;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px;background:linear-gradient(135deg,#f0e6d8,#fffaf2);color:var(--muted);text-align:center}
 .photo-placeholder span{font-size:1.05rem;font-weight:700}
 .photo-placeholder small{font-size:.85rem;font-style:italic}
@@ -32,7 +35,9 @@ main{max-width:1200px;margin:auto;padding:34px 18px 70px}
 .category-label{margin-top:8px;font-size:.86rem;color:var(--gold);text-transform:uppercase;letter-spacing:.08em}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;flex-direction:column;padding:20px;z-index:50}
 .modal.open{display:flex}
-.modal img{max-width:min(100%,1200px);max-height:82vh;object-fit:contain;border-radius:12px}
+.modal-photo-wrap{position:relative;display:inline-block;max-width:min(100%,1200px);max-height:82vh}
+.modal img{max-width:100%;max-height:82vh;object-fit:contain;border-radius:12px;display:block}
+.modal .image-number-fix{font-size:clamp(1.5rem,5vw,5rem)}
 .modal p{color:white;font-size:1.2rem;text-align:center}
 .modal-close{position:absolute;top:12px;right:16px;background:none;border:0;color:white;font-size:3rem;cursor:pointer}
 footer{text-align:center;padding:24px;background:#efe5d6;color:var(--muted)}

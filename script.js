@@ -338,120 +338,138 @@ const dishes = [
   },
   {
     "n": 57,
+    "name": "Semi-tataki",
+    "cat": "pescados",
+    "img": "57-semi-tataki.png"
+  },
+  {
+    "n": 58,
+    "name": "Gallo Pedro",
+    "cat": "pescados",
+    "img": "58-gallo-pedro.png"
+  },
+  {
+    "n": 59,
+    "name": "Rodaballo",
+    "cat": "pescados",
+    "img": "59-rodaballo.png"
+  },
+  {
+    "n": 60,
     "name": "Pechuga de pollo a la plancha",
     "cat": "combinados",
     "img": "57.png"
   },
   {
-    "n": 58,
+    "n": 61,
     "name": "Lomo de cerdo / castaño a la plancha",
     "cat": "combinados",
     "img": "58.png"
   },
   {
-    "n": 59,
+    "n": 62,
     "name": "Filete de ternera gallega o Angus",
     "cat": "combinados",
     "img": "59.png"
   },
   {
-    "n": 60,
+    "n": 63,
     "name": "Chuletón gallego o Angus",
     "cat": "carnes",
     "img": "60.png"
   },
   {
-    "n": 61,
+    "n": 64,
     "name": "Entrecot de vaca rubia gallega, mestiza o añojo",
     "cat": "carnes",
     "img": "61.png"
   },
   {
-    "n": 62,
+    "n": 65,
     "name": "Solomillo de vaca rubia gallega, mestiza, añojo o ternera rosada",
     "cat": "carnes",
     "img": "62.png"
   },
   {
-    "n": 63,
+    "n": 66,
     "name": "Parrillada de carnes",
     "cat": "carnes",
     "img": "63.png"
   },
   {
-    "n": 64,
+    "n": 67,
     "name": "Paella mixta",
     "cat": "arroces",
     "img": "64.png"
   },
   {
-    "n": 65,
+    "n": 68,
     "name": "Paella de mariscos",
     "cat": "arroces",
     "img": "65.png"
   },
   {
-    "n": 66,
+    "n": 69,
     "name": "Arroz con carabineros",
     "cat": "arroces",
     "img": "66.png"
   },
   {
-    "n": 67,
+    "n": 70,
     "name": "Arroz con bogavante",
     "cat": "arroces",
     "img": "67.png"
   },
   {
-    "n": 68,
+    "n": 71,
     "name": "Espaguetis a la boloñesa",
     "cat": "pastas",
     "img": "68.png"
   },
   {
-    "n": 69,
+    "n": 72,
     "name": "Tagliatella a la marinera",
     "cat": "pastas",
     "img": "69.png"
   },
   {
-    "n": 70,
+    "n": 73,
     "name": "Porción de tarta",
     "cat": "postres",
     "img": "70.png"
   },
   {
-    "n": 71,
+    "n": 74,
     "name": "Pan de Calatrava",
     "cat": "postres",
     "img": "71.png"
   },
   {
-    "n": 72,
+    "n": 75,
     "name": "Arroz con leche",
     "cat": "postres",
     "img": "72.png"
   },
   {
-    "n": 73,
+    "n": 76,
     "name": "Fresas con nata",
     "cat": "postres",
     "img": "73.png"
   },
   {
-    "n": 74,
+    "n": 77,
     "name": "Fruta de campaña",
     "cat": "postres",
     "img": "74.png"
   },
   {
-    "n": 75,
+    "n": 78,
     "name": "Tarrina de helado",
     "cat": "postres",
     "img": "75.png"
   },
   {
-    "n": 76,
+    "n": 79,
     "name": "Postres artesanales",
     "cat": "postres",
     "img": "76.png"
@@ -477,14 +495,15 @@ const englishNames = {
   48: "Chargrilled swordfish", 49: "Seafood zarzuela for two", 50: "Mixed seafood platter",
   51: "Mediterranean red prawn", 52: "Variegated scallops", 53: "Mixed fried fish",
   54: "Oven-roasted octopus", 55: "Galician-style octopus", 56: "Chargrilled octopus",
-  57: "Grilled chicken breast", 58: "Grilled pork loin / chestnut-fed pork loin",
-  59: "Galician beef or Angus steak", 60: "Galician or Angus T-bone steak",
-  61: "Galician blond, crossbred or yearling beef entrecote",
-  62: "Galician blond, crossbred, yearling or rose veal tenderloin", 63: "Mixed grilled meats",
-  64: "Mixed paella", 65: "Seafood paella", 66: "Rice with scarlet prawns", 67: "Rice with lobster",
-  68: "Spaghetti Bolognese", 69: "Seafood tagliatelle", 70: "Slice of cake",
-  71: "Calatrava bread pudding", 72: "Rice pudding", 73: "Strawberries with cream",
-  74: "Seasonal fruit", 75: "Tub of ice cream", 76: "Homemade desserts"
+  57: "Seared Tuna Tataki", 58: "John Dory", 59: "Turbot",
+  60: "Grilled chicken breast", 61: "Grilled pork loin / chestnut-fed pork loin",
+  62: "Galician beef or Angus steak", 63: "Galician or Angus T-bone steak",
+  64: "Galician blond, crossbred or yearling beef entrecote",
+  65: "Galician blond, crossbred, yearling or rose veal tenderloin", 66: "Mixed grilled meats",
+  67: "Mixed paella", 68: "Seafood paella", 69: "Rice with scarlet prawns", 70: "Rice with lobster",
+  71: "Spaghetti Bolognese", 72: "Seafood tagliatelle", 73: "Slice of cake",
+  74: "Calatrava bread pudding", 75: "Rice pudding", 76: "Strawberries with cream",
+  77: "Seasonal fruit", 78: "Tub of ice cream", 79: "Homemade desserts"
 };
 
 const grid = document.getElementById('platos');
@@ -492,6 +511,7 @@ const buttons = document.querySelectorAll('[data-filter]');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
 const modalTitle = document.getElementById('modal-title');
+const modalNumberFix = document.getElementById('modal-number-fix');
 
 function render(filter='all') {
   grid.innerHTML = '';
@@ -499,18 +519,20 @@ function render(filter='all') {
     const card = document.createElement('article');
     card.className = 'card';
     card.innerHTML = `
-      ${d.n === 59
+      ${d.n === 62
         ? '<div class="photo-placeholder"><span>Fotografía pendiente</span><small>Photo coming soon</small></div>'
-        : `<img src="imagenes-uniformes/${d.img}?v=20260714-7" alt="${d.name}" loading="lazy">`}
+        : `<div class="card-photo-wrap"><img src="imagenes-uniformes/${d.img}?v=20260715-2" alt="${d.name}" loading="lazy">${d.n >= 60 ? `<span class="image-number-fix">${d.n}</span>` : ''}</div>`}
       <div class="card-body">
         <span class="number">Nº ${d.n}</span>
         <h3>${d.name}</h3>
         <div class="category-label">${categoryNames[d.cat]}</div>
       </div>`;
     card.addEventListener('click', () => {
-      if (d.n === 59) return;
-      modalImg.src = `imagenes-uniformes/${d.img}?v=20260714-7`;
+      if (d.n === 62) return;
+      modalImg.src = `imagenes-uniformes/${d.img}?v=20260715-2`;
       modalImg.alt = d.name;
+      modalNumberFix.hidden = d.n < 60;
+      modalNumberFix.textContent = d.n >= 60 ? d.n : '';
       modalTitle.textContent = `Nº ${d.n} · ${d.name}`;
       modal.classList.add('open');
       modal.setAttribute('aria-hidden','false');
