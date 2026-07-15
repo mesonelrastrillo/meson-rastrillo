@@ -26,9 +26,9 @@ const dishes = [
   },
   {
     "n": 5,
-    "name": "Pulpo a la Gallega",
+    "name": "Mejillones a la marinera",
     "cat": "raciones",
-    "img": "05.png"
+    "img": "05-v2.png"
   },
   {
     "n": 6,
@@ -461,7 +461,7 @@ const categoryNames = {"raciones": "Raciones", "sopas": "Sopas", "pescados": "Pe
 
 const englishNames = {
   1: "Russian salad", 2: "Three-seas salad", 3: "Steamed mussels", 4: "Mussels with vinaigrette",
-  5: "Galician-style octopus", 6: "Marinated anchovies", 7: "Octopus and king prawn seafood salad",
+  5: "Mussels in marinara sauce", 6: "Marinated anchovies", 7: "Octopus and king prawn seafood salad",
   8: "Blanched cuttlefish", 9: "Cuttlefish in tomato sauce", 10: "Grilled cuttlefish",
   11: "Fried cuttlefish", 12: "Battered squid rings", 13: "Fried baby cuttlefish",
   14: "Baby squid in its own sauce", 15: "Baby octopus in tomato sauce", 16: "Octopus with artichokes",
