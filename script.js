@@ -46,7 +46,7 @@ const dishes = [
     "n": 8,
     "name": "Sepia sanglochada",
     "cat": "raciones",
-    "img": "08-limpia.png"
+    "img": "08-sepia-sanglochada-v2.png"
   },
   {
     "n": 9,
@@ -124,7 +124,7 @@ const dishes = [
     "n": 21,
     "name": "Almejas a la gallega",
     "cat": "raciones",
-    "img": "21-limpia.png"
+    "img": "21-almejas-gallega-anterior.png"
   },
   {
     "n": 22,
@@ -542,14 +542,14 @@ function render(filter='all') {
     const card = document.createElement('article');
     card.className = 'card';
     card.innerHTML = `
-      <div class="card-photo-wrap"><img src="imagenes-uniformes/${d.img}?v=20260718-04" alt="${d.name}" loading="lazy">${prices[d.n] ? `<span class="image-price">${prices[d.n]}</span>` : ''}</div>
+      <div class="card-photo-wrap"><img src="imagenes-uniformes/${d.img}?v=20260718-05" alt="${d.name}" loading="lazy">${prices[d.n] ? `<span class="image-price">${prices[d.n]}</span>` : ''}</div>
       <div class="card-body">
         <span class="number">Nº ${d.n}</span>
         <h3>${d.name}</h3>
         <div class="category-label">${categoryNames[d.cat]}</div>
       </div>`;
     card.addEventListener('click', () => {
-  modalImg.src = `imagenes-uniformes/${d.img}?v=20260718-04`;
+  modalImg.src = `imagenes-uniformes/${d.img}?v=20260718-05`;
       modalImg.alt = d.name;
       modalNumberFix.className = 'image-badge-eraser';
       modalNumberFix.innerHTML = '';
